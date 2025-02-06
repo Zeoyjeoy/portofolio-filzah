@@ -173,7 +173,6 @@ const HomePage = () => {
               >
                 Github Code
               </a>
-              
             </div>
           </div>
         </div>
