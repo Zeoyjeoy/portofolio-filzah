@@ -44,8 +44,8 @@ const HomePage = () => {
         </div>
 
         <div
-          className="about grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32"
-          id="about"
+          className="honors grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32"
+          id="honors"
         >
           <div className="box md:order-1 order-2">
             <img

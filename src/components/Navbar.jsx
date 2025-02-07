@@ -43,7 +43,7 @@ let scrollActive = scroll ? "py-6 bg-white shadow" : "py-4"
                     </li>
                     <li className="flex items-center gap-3">
                     <i className="ri-information-line text-3xl md:hidden block"></i>
-                        <a href="#about" className="font-medium opacity-75 ">
+                        <a href="#honors" className="font-medium opacity-75 ">
                             Honors</a>
                     </li>
                     <li className="flex items-center gap-3">
