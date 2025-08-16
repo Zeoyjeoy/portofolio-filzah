@@ -255,7 +255,7 @@ const HomePage = () => {
                 rel="noopener noreferrer"
                 className="inline-block mt-4 px-6 py-2 bg-sky-400 text-white rounded-lg hover:bg-blue-300 transition-colors duration-300"
               >
-                Github Code
+                Github Codes
               </a>
             </div>
           </div>
