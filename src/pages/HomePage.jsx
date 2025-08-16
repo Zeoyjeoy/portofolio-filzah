@@ -1,8 +1,8 @@
 import AboutImage from "../assets/images/about.svg";
-import Proyek1 from "../assets/images/proyek-1.webp";
 import Projek1 from "../assets/images/projek1.png";
 import FotoPorto from "../assets/images/Filzah.png";
-
+import Projek2 from "../assets/images/projek 2.png";
+import Projek3 from "../assets/images/projek 3.png";
 const HomePage = () => {
   return (
     <div className="homepage pb-10">
@@ -187,6 +187,70 @@ const HomePage = () => {
               <br />
               <a
                 href="https://github.com/Zeoyjeoy/Freepass-FE-2025"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 px-6 py-2 bg-sky-400 text-white rounded-lg hover:bg-blue-300 transition-colors duration-300"
+              >
+                Github Code
+              </a>
+            </div>
+
+            <div className="box p-2 bg-white">
+              <img
+                src={Projek2}
+                alt="Catfish Monitoring Project"
+                className="w-full h-[220px] object-cover"
+              />
+              <h3 className="text-xl font-bold mt-6 mb-2">
+                Catfish Water Quality Monitoring Website
+              </h3>
+              <p className="text-base/loose">
+                A comprehensive web-based monitoring system designed to track and analyze water quality parameters for catfish farming. The website integrates IoT sensors to monitor pH levels, dissolved oxygen, temperature, and turbidity in real-time. Built with modern web technologies, it features automated alerts, data visualization through charts and graphs, historical data analysis, and mobile-responsive design. The system helps aquaculture farmers optimize fish health and productivity by providing actionable insights and early warning systems for water quality issues.
+              </p>
+
+              <a
+                href="https://monitoring.infarm.web.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 px-6 py-2 bg-sky-400 text-white rounded-lg hover:bg-blue-300 transition-colors duration-300"
+              >
+                See My Website
+              </a>
+              <br />
+              <a
+                href="https://github.com/Zeoyjeoy/lele-dawuhan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 px-6 py-2 bg-sky-400 text-white rounded-lg hover:bg-blue-300 transition-colors duration-300"
+              >
+                Github Code
+              </a>
+            </div>
+
+            <div className="box p-2 bg-white">
+              <img
+                src={Projek3}
+                alt="Raja Brawijaya Committee Project"
+                className="w-full h-[220px] object-cover"
+              />
+              <h3 className="text-xl font-bold mt-6 mb-2">
+                Raja Brawijaya Committee Website
+              </h3>
+              <p className="text-base/loose">
+                A sophisticated committee management system designed for the Raja Brawijaya event organization. The website implements a QR code-based attendance and resource management system where each committee member receives a unique QR code. This QR system serves dual purposes: attendance tracking for meetings and events, and consumption management for meal distribution during committee activities. Built with secure authentication, real-time data processing, and mobile optimization, the platform streamlines committee operations, reduces manual processes, and provides comprehensive reporting for event coordinators and administrators.
+              </p>
+
+              <a
+                href="https://panitia.rabraw25.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 px-6 py-2 bg-sky-400 text-white rounded-lg hover:bg-blue-300 transition-colors duration-300"
+              >
+                See My Website
+              </a>
+              <br />
+              <a
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-4 px-6 py-2 bg-sky-400 text-white rounded-lg hover:bg-blue-300 transition-colors duration-300"
